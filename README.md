@@ -1,5 +1,7 @@
 # Translate
 
+Forked : https://github.com/Ultchad/kalliope_neuron_translate
+
 ## Synopsis
 
 Neuron to translate sentence with google API
