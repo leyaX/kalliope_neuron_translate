@@ -9,7 +9,7 @@ Neuron to translate sentence with google API
 ## Installation
 
 ```bash
-kalliope install --git-url https://github.com/Ultchad/kalliope_neuron_translate
+kalliope install --git-url https://github.com/leyaX/kalliope_neuron_translate
 ```
 
 ## Options
