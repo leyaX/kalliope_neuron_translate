@@ -1,8 +1,8 @@
 import logging
 
 from kalliope.core.NeuronModule import NeuronModule, InvalidParameterException
-from googletranslate import translator
-from googletranslate import constants
+from googletrans import Translator
+from googletrans import constants
 
 logging.basicConfig()
 logger = logging.getLogger("kalliope")
@@ -16,7 +16,7 @@ class Translate(NeuronModule):
             cache = False
             kwargs["cache"] = cache
         super(Translate, self).__init__(**kwargs)
-
+        translator = Translator()  
         self.message = None
 
         # get parameters form the neuron
