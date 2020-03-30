@@ -8,6 +8,6 @@
   tasks:
     - name: "Install pip dependencies"
       pip:
-        name: googletrans
-        version: 2.4.0
-        executable: pip3
+        name: "googletrans"
+        version: "2.4.0"
+        executable: "pip3"
