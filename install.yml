@@ -7,5 +7,5 @@
   tasks:
     - name: "Install pip dependencies"
       pip:
-        name: 'googletrans==2.4.1'
+        name: 'googletrans==2.4.0'
         executable: pip3
